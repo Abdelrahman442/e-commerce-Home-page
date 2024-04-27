@@ -1,0 +1,344 @@
+// colors
+$main: #3d8bfd;
+$main-alt: #8cb7f5;
+$gray-500: #8b96a5;
+
+$timing: 0.5s;
+
+@mixin container {
+  .container {
+    @media (max-width: 992px) {
+      margin: 0;
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+}
+
+// global classes
+.owl-nav,
+.owl-dots {
+  display: none;
+}
+
+body {
+  background-color: #e5f1ff;
+}
+// header
+header {
+  background-color: #fff;
+  .navbar-brand {
+    @media (max-width: 425px) {
+      img {
+        width: 120px;
+      }
+    }
+  }
+  .upper-header {
+    form {
+      width: 50%;
+      height: 50px;
+      max-width: 50%;
+      border-radius: 8px;
+      border: 2px solid $main;
+      input {
+        height: 100%;
+        border: none;
+        outline: none;
+        padding: 0 15px;
+        border-radius: 10px 0 0 10px;
+        border-right: 1px solid $gray-500;
+      }
+      select,
+      .form-btn {
+        border: none;
+        outline: none;
+        background-color: transparent;
+      }
+      select {
+        width: fit-content;
+      }
+      .form-btn {
+        height: 100%;
+        color: #fff;
+        padding: 0 20px;
+        transition: $timing;
+        background-color: $main;
+        border-radius: 0 5px 5px 0;
+        &:hover {
+          background-color: $main-alt;
+        }
+      }
+    }
+    .nav-link {
+      color: $gray-500;
+      text-align: center;
+      transition: $timing;
+      i {
+        display: block;
+        font-size: 15px;
+      }
+      span {
+        font-size: 14px;
+      }
+      &:hover {
+        color: $main;
+      }
+    }
+  }
+  .links {
+    .nav-link {
+      color: $main;
+      padding: 8px;
+      transform: $timing;
+      &:hover {
+        color: #000;
+      }
+    }
+    select {
+      width: fit-content;
+    }
+  }
+  .icons {
+    a {
+      color: black;
+      margin: 0 10px;
+      transition: $timing;
+      &:hover {
+        color: $main-alt;
+      }
+    }
+  }
+}
+// end of header
+// main section
+main {
+  @include container;
+  .menu {
+    .nav-link {
+      padding: 6px 10px;
+      border-radius: 5px;
+      margin-bottom: 2px;
+      transition: $timing;
+      &:hover,
+      &.active {
+        background-color: #e5f1ff;
+      }
+    }
+  }
+  .banner {
+    position: relative;
+    img {
+      width: 100%;
+    }
+    .banner-text {
+      position: absolute;
+      top: 40px;
+      left: 40px;
+      @media (max-width: 425px) {
+        top: 10px;
+        left: 10px;
+      }
+    }
+  }
+  .welcome-block {
+    p {
+      font: 14px;
+    }
+    background-color: #e3f0ff;
+  }
+  .offer-block {
+    background-color: #f38332;
+  }
+  .qoute-block {
+    background-color: #55bdc3;
+  }
+}
+// end of main section
+
+// deals
+.deals {
+  @include container;
+  .deals-text {
+    height: 100%;
+    border-bottom: 1px solid #eee;
+    @media (max-width: 576px) {
+      flex-flow: column;
+      align-items: center;
+    }
+    p {
+      color: $gray-500;
+    }
+    .counter {
+      display: flex;
+      gap: 5px;
+      > div {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #606060;
+        @media (max-width: 992px) {
+          background-color: #e0e2e4;
+        }
+      }
+    }
+  }
+  .deal-items {
+    .item {
+      height: 100%;
+      .item-img {
+        display: flex;
+        margin-bottom: 15px;
+        justify-content: center;
+        img {
+          width: 100px;
+          height: 100px;
+        }
+      }
+      .item-name {
+        font-size: 18px;
+      }
+      .discount {
+        background-color: #ffe3e3;
+      }
+    }
+  }
+}
+// end of deals
+
+// home items
+.home-items,
+.electric-items {
+  .container {
+    @media (max-width: 992px) {
+      margin: 0;
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  .section-text {
+    background-image: linear-gradient(to right bottom, #ffdfb06c, #ffdfb06c),
+      url("../images/products/home-products/cover.png");
+    background-size: cover;
+  }
+  .item {
+    gap: 5px;
+    height: 120px;
+    justify-content: center;
+    .item-content {
+      .price {
+        font-size: 14px;
+        color: $gray-500;
+      }
+    }
+    .item-img {
+      display: flex;
+      align-items: flex-end;
+    }
+  }
+}
+// end of home items
+
+// electric items
+.electric-items {
+  .section-text {
+    background-image: linear-gradient(to right bottom, #c4c4c46c, #c4c4c46c),
+      url("../images/products/electric-products/cover.png");
+    background-size: cover;
+  }
+}
+// end of home items
+
+// inquiry
+.inquiry {
+  @include container;
+  .inquery-content {
+    background-image: linear-gradient(to right bottom, #2c7cf1, #00d1ff70),
+      url("../images/inquery.png");
+  }
+}
+// end of inquiry
+
+// recommended
+.recommended {
+  @include container;
+  .item {
+    height: 324px;
+    .item-desc {
+      color: $gray-500;
+    }
+  }
+}
+// end of recommended
+
+// services
+.services {
+  @include container;
+  .service-img {
+    overflow: hidden;
+    position: relative;
+    .overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: #00000094;
+    }
+  }
+  .service-body {
+    position: relative;
+    .service-title {
+      line-height: 1.4;
+      font-weight: 500;
+    }
+    .service-icon {
+      position: absolute;
+      top: 0;
+      right: 0px;
+      width: 45px;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      background-color: #8cb7f5;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+// end of services
+
+// subscribe
+.subscribe {
+  form {
+    max-width: 400px;
+    margin: auto;
+  }
+}
+// end of subscribe
+
+// footer
+footer {
+  .social-links {
+    a {
+      width: 30px;
+      height: 30px;
+      display: block;
+      line-height: 30px;
+      text-align: center;
+      border-radius: 50%;
+      background-color: #8b96a5;
+      transition: $timing;
+      &:hover {
+        background-color: $main-alt;
+      }
+      i {
+        color: white;
+      }
+    }
+  }
+}
+// end of footer

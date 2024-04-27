@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <title>Ecommerce Template</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <!-- header for lg screen  -->
+    <header class="d-sm-block d-none">
+      <!-- upper header -->
+      <div class="upper-header py-2 border-bottom">
+        <div class="container">
+          <div
+            class="upper-header-content d-flex justify-content-between align-items-center"
+          >
+            <a class="navbar-brand" href="#">
+              <img src="assets/images/logo-colored.png" alt="site logo" />
+            </a>
+            <form
+              class="search-box align-items-center d-lg-flex d-none"
+              role="search"
+            >
+              <input
+                class="search-input form-control shadow-none"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <select
+                class="form-select shadow-none small"
+                aria-label="Default select example"
+              >
+                <option selected>All category</option>
+                <option value="1">category One</option>
+                <option value="2">category Two</option>
+                <option value="3">category Three</option>
+              </select>
+              <button class="form-btn small" type="submit">Search</button>
+            </form>
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa-solid fa-user"></i>
+                  <span>Profile</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa-solid fa-message"></i>
+                  <span>Message</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa-solid fa-heart"></i>
+                  <span>Orders</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <span>My cart</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- ./upper header -->
+      <!-- links -->
+      <div class="links border-bottom">
+        <div
+          class="container d-flex align-items-center justify-content-between"
+        >
+          <nav class="py-2 m-lg-0 m-auto">
+            <ul class="nav small">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa-solid fa-bars me-2"></i>
+                  All category
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hot offers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gift boxes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menu item</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Help
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <div
+            class="settings d-lg-flex d-none align-items-center justify-content-between"
+          >
+            <select
+              class="form-select border-0 shadow-none"
+              aria-label="Default select example"
+            >
+              <option class="small" selected>English, USD</option>
+              <option class="small" value="1">Arabic, EG</option>
+            </select>
+            <select
+              class="form-select border-0 shadow-none"
+              aria-label="Default select example"
+            >
+              <option class="small" selected>Ship to</option>
+              <option class="small" value="1">Pcs</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <!-- links -->
+    </header>
+    <!-- ./header -->
+    <!-- header for sm screen  -->
+    <header class="py-2 d-sm-none d-block">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <div>
+            <button
+              class="navbar-toggler shadow-none border-0 me-2"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+              <img src="assets/images/logo-colored.png" alt="site logo" />
+            </a>
+          </div>
+          <div class="icons">
+            <a href="#">
+              <i class="fa-solid fa-cart-shopping fa-lg"> </i>
+            </a>
+            <a href="#">
+              <i class="fa-solid fa-user fa-lg"> </i>
+            </a>
+          </div>
+          <div class="collapse navbar-collapse ps-3" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa-solid fa-bars me-2"></i>
+                  All category
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hot offers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gift boxes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Menu item</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Help
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- ./header  -->
+
+    <!-- main -->
+    <main class="mt-4">
+      <div class="container">
+        <div class="main- rounded-3 bg-white p-3">
+          <div class="row">
+            <div class="col-lg-2 col-md-3 d-md-block d-none">
+              <div class="menu">
+                <ul class="navbar-nav">
+                  <li><a href="#" class="nav-link active">Automobiles</a></li>
+                  <li><a href="#" class="nav-link">Clothes and wear</a></li>
+                  <li><a href="#" class="nav-link">Home interiors</a></li>
+                  <li><a href="#" class="nav-link">Computer and tech</a></li>
+                  <li><a href="#" class="nav-link">Tools, equipments</a></li>
+                  <li><a href="#" class="nav-link">Sports and outdoor</a></li>
+                  <li><a href="#" class="nav-link">Animal and pets</a></li>
+                  <li><a href="#" class="nav-link">Machinery tools</a></li>
+                  <li><a href="#" class="nav-link">More category</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-9 col-12">
+              <div class="banner">
+                <div class="img">
+                  <img
+                    src="assets/images/banner.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="banner-text">
+                  <h1 class="h2 fw-normal">Latest trstarting</h1>
+                  <h1 class="fw-bold">Electronic items</h1>
+                  <button class="btn bg-white">Learn more</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 d-lg-block d-none p-0 text-muted">
+              <div class="block p-2 rounded-3 welcome-block">
+                <div class="head d-flex justify-content-between">
+                  <div class="head-img">
+                    <img src="assets/images/Avatar.png" alt="" />
+                  </div>
+                  <p>
+                    Hi, user<br />
+                    let's get stated
+                  </p>
+                </div>
+                <button class="btn btn-primary p-1 w-100 mb-2">Join now</button>
+                <button class="btn bg-white p-1 w-100">Log in</button>
+              </div>
+              <div class="block p-3 my-2 rounded-3 offer-block text-white">
+                <p class="m-0">Get US $10 off</p>
+                <p class="m-0">with a new</p>
+                <p class="m-0">supplier</p>
+              </div>
+              <div class="block p-3 rounded-3 qoute-block text-white">
+                <p class="m-0">Send quotes with</p>
+                <p class="m-0">supplier</p>
+                <p class="m-0">suppreferencesplier</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- ./main -->
+
+    <!-- deals -->
+    <section class="deals mt-4">
+      <div class="container">
+        <div class="deals-content bg-white overflow-hidden rounded-3">
+          <div class="row">
+            <div class="col-lg-3 col-12 border-end">
+              <div
+                class="deals-text d-lg-block d-flex justify-content-between p-4"
+              >
+                <div>
+                  <h5 class="fw-bold">Deals and offers</h5>
+                  <p class="fs-6">Hygiene equipments</p>
+                </div>
+                <div class="counter">
+                  <div class="rounded-3 text-center text-white">
+                    <span class="days fw-bold">04</span>
+                    <span class="small">Days</span>
+                  </div>
+                  <div class="rounded-3 text-center text-white">
+                    <span class="hour fw-bold">13</span>
+                    <span class="small">Hour</span>
+                  </div>
+                  <div class="rounded-3 text-center text-white">
+                    <span class="min fw-bold">34</span>
+                    <span class="small">Min</span>
+                  </div>
+                  <div class="rounded-3 text-center text-white">
+                    <span class="sec fw-bold">56</span>
+                    <span class="small">Sec</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-9 col-12 p-0">
+              <div class="deal-items">
+                <div class="owl-carousel">
+                  <div class="item">
+                    <div>
+                      <div class="item text-center py-4 border-start">
+                        <div class="item-img">
+                          <img
+                            src="assets/images/products/smart watch.png"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <h5 class="item-name">Smart watches</h5>
+                        <span
+                          class="discount badge text-danger rounded-pill px-2 py-1"
+                          >-25%</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="item text-center py-4 border-start">
+                        <div class="item-img">
+                          <img
+                            src="assets/images/products/labtop.png"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <h5 class="item-name">Laptops</h5>
+                        <span
+                          class="discount badge text-danger rounded-pill px-2 py-1"
+                          >-15%</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="item text-center py-4 border-start">
+                        <div class="item-img">
+                          <img
+                            src="assets/images/products/camera.png"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <h5 class="item-name">GoPro cameras</h5>
+                        <span
+                          class="discount badge text-danger rounded-pill px-2 py-1"
+                          >-40%</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div>
+                      <div class="item text-center py-4 border-start">
+                        <div class="item-img">
+                          <img
+                            src="assets/images/products/headphone.png"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <h5 class="item-name">Head phones</h5>
+                        <span
+                          class="discount badge text-danger rounded-pill px-2 py-1"
+                          >-25%</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item border-start">
+                    <div>
+                      <div class="item text-center py-4">
+                        <div class="item-img">
+                          <img
+                            src="assets/images/products/iphone.png"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <h5 class="item-name">Smart Phone</h5>
+                        <span
+                          class="discount badge text-danger rounded-pill px-2 py-1"
+                          >-25%</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ./deals -->
+
+    <!-- home items -->
+    <section class="home-items mt-4">
+      <div class="container">
+        <div class="home-items-content bg-white overflow-hidden rounded-3">
+          <div class="row">
+            <div class="col-lg-3 col-12 p-0 border-end">
+              <div class="section-text h-100 p-4">
+                <h5 class="mb-3 fw-bold">Home and outdoor</h5>
+                <button class="btn bg-white">Source now</button>
+              </div>
+            </div>
+            <div class="col-lg-9 col-12 p-0">
+              <div class="items">
+                <div class="owl-carousel border-bottom p-0">
+                  <div class="item border-start d-flex p-3">
+                    <div class="item-content">
+                      <h6 class="item-name m-0">Soft chairs</h6>
+                      <span class="price">From USD 19</span>
+                    </div>
+                    <div class="item-img">
+                      <img
+                        src="assets/images/products/home-products/chair.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="item border-start d-flex p-3">
+                    <div class="item-content">
+                      <h6 class="item-name m-0">Sofa & chair</h6>
+                      <span class="price">From USD 19</span>
+                    </div>
+                    <div class="item-img">
+                      <img
+                        src="assets/images/products/home-products/lamb.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="item border-start d-flex p-3">
+                    <div class="item-content">
+                      <h6 class="item-name m-0">Kitchen dishes</h6>
+                      <span class="price">From USD 19</span>
+                    </div>
+                    <div class="item-img">
+                      <img
+                        src="assets/images/products/home-products/air-bag.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="item border-start d-flex p-3">
+                    <div class="item-content">
+                      <h6 class="item-name m-0">Smart watches</h6>
+                      <span class="price">From USD 19</span>
+                    </div>
+                    <div class="item-img">
+                      <img
+                        src="assets/images/products/home-products/gar.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-carousel">
+                  <div class="item border-start d-flex p-3">
+                    <div class="item-content">
+                      <h6 class="item-name m-0">Kitchen mixer</h6>
+                      <span class="price">From USD 100</span>
+                    </div>
+                    <div class="item-img">
+                      <img
+                        src="assets/images/products/home-products/fruit-maker.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="item border-start d-flex p-3">
+                    <div class="item-content">
+                      <h6 class="item-name m-0">Blenders</h6>
+                      <span class="price">From USD 39</span>
+                    </div>
+                    <div class="item-img">
+                      <img
+                        src="assets/images/products/home-products/machine.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="item border-start d-flex p-3">
+                    <div class="item-content">
+                      <h6 class="item-name m-0">Home appliance</h6>
+                      <span class="price">From USD 19</span>
+                    </div>
+                    <div class="item-img">
+                      <img
+                        src="assets/images/products/home-products/carpet.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="item border-start d-flex p-3">
+                    <div class="item-content">
+                      <h6 class="item-name m-0">Green plants</h6>
+                      <span class="price">From USD 10</span>
+                    </div>
+                    <div class="item-img">
+                      <img
+                        src="assets/images/products/home-products/plant.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ./home items -->
+
+    <!-- electric items -->
+    <section class="electric-items mt-4">
+      <div class="container">
+        <div class="electric-items-content bg-white overflow-hidden rounded-3">
+          <div class="row">
+            <div class="col-lg-3 col-12 p-0 border-end">
+              <div class="section-text h-100 p-4">
+                <h5 class="mb-3 fw-bold">Consumer electronics and gadgets</h5>
+                <button class="btn bg-white">Source now</button>
+              </div>
+            </div>
+            <div class="col-lg-9 col-12 p-0">
+              <div class="items">
+                <div class="owl-carousel border-bottom p-0">
+                  <div class="item border-start d-flex p-3">
+                    <div class="item-content">
+                      <h6 class="item-name m-0">Smart watches</h6>
+                      <span class="price">From USD 19</span>
+                    </div>
+                    <div class="item-img">
+                      <img
+                        src="assets/images/products/electric-products/watch.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="item border-start d-flex p-3">
+                    <div class="item-content">
+                      <h6 class="item-name m-0">Cameras</h6>
+                      <span class="price">From USD 19</span>
+                    </div>
+                    <div class="item-img">
+                      <img
+                        src="assets/images/products/electric-products/camera.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="item border-start d-flex p-3">
+                    <div class="item-content">
+                      <h6 class="item-name m-0">Head phones</h6>
+                      <span class="price">From USD 19</span>
+                    </div>
+                    <div class="item-img">
+                      <img
+                        src="assets/images/products/electric-products/whiteheadphone.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="item border-start d-flex p-3">
+                    <div class="item-content">
+                      <h6 class="item-name m-0">Electric kattle</h6>
+                      <span class="price">From USD 19</span>
+                    </div>
+                    <div class="item-img">
+                      <img
+                        src="assets/images/products/electric-products/catle.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-carousel">
+                  <div class="item border-start d-flex p-3">
+                    <div class="item-content">
+                      <h6 class="item-name m-0">Gaming set</h6>
+                      <span class="price">From USD 100</span>
+                    </div>
+                    <div class="item-img">
+                      <img
+                        src="assets/images/products/electric-products/headphone.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="item border-start d-flex p-3">
+                    <div class="item-content">
+                      <h6 class="item-name m-0">Laptops & PC</h6>
+                      <span class="price">From USD 39</span>
+                    </div>
+                    <div class="item-img">
+                      <img
+                        src="assets/images/products/electric-products/labtop.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="item border-start d-flex p-3">
+                    <div class="item-content">
+                      <h6 class="item-name m-0">Smart phones</h6>
+                      <span class="price">From USD 19</span>
+                    </div>
+                    <div class="item-img">
+                      <img
+                        src="assets/images/products/electric-products/tab.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="item border-start d-flex p-3">
+                    <div class="item-content">
+                      <h6 class="item-name m-0">Iphone</h6>
+                      <span class="price">From USD 10</span>
+                    </div>
+                    <div class="item-img">
+                      <img
+                        src="assets/images/products/electric-products/iphone.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ./home items -->
+
+    <!-- inquiry -->
+    <section class="inquiry mt-4">
+      <div class="container">
+        <div class="inquery-content rounded-3 p-4">
+          <div class="row justify-content-between">
+            <div class="col-lg-5 col-md-6 col-12 mb-md-0 mb-4">
+              <div class="inqyery-text text-white">
+                <h2 class="mb-4">
+                  An easy way to send requests to all suppliers
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-6 col-12">
+              <div class="form bg-white rounded-3 p-3">
+                <h4 class="mb-3">Send quote to suppliers</h4>
+                <form>
+                  <div class="mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="textInput"
+                      placeholder="What item you need?"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <textarea
+                      class="form-control"
+                      id="textArea"
+                      rows="3"
+                      placeholder="Type more details"
+                    ></textarea>
+                  </div>
+                  <div class="mb-3 d-flex gap-3">
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="numberInput"
+                      placeholder="Quantity"
+                    />
+                    <select class="form-select" id="selectElement">
+                      <option selected>Pcs</option>
+                      <option value="option1">Pcs 1</option>
+                      <option value="option2">Pcs 2</option>
+                      <option value="option3">Pcs 3</option>
+                    </select>
+                  </div>
+                  <button type="submit" class="btn btn-primary">
+                    Send inquiry
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ./inquiry -->
+
+    <!-- recommended -->
+    <section class="recommended mt-5">
+      <div class="container">
+        <div class="recommended-content">
+          <h3 class="mb-4">Recommended items</h3>
+          <div
+            class="row row-cols-1 row-cols-lg-5 row-cols-md-4 row-cols-sm-3 g-3"
+          >
+            <div class="col">
+              <div class="item bg-white border px-4 py-3 rounded-2">
+                <div class="item-img text-center mb-4">
+                  <img
+                    src="assets/images/products/recommend/cloth/tshirt.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="price fw-bold mb-2">$10.30</div>
+                <p class="item-desc">T-shirts with multiple colors, for men</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="item bg-white border px-4 py-3 rounded-2">
+                <div class="item-img text-center mb-4">
+                  <img
+                    src="assets/images/products/recommend/cloth/jaket.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="price fw-bold mb-2">$10.30</div>
+                <p class="item-desc">Brown winter coat medium size</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="item bg-white border px-4 py-3 rounded-2">
+                <div class="item-img text-center mb-4">
+                  <img
+                    src="assets/images/products/recommend/cloth/blizer.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="price fw-bold mb-2">$12.50</div>
+                <p class="item-desc">Jeans shorts for menblue color</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="item bg-white border px-4 py-3 rounded-2">
+                <div class="item-img text-center mb-4">
+                  <img
+                    src="assets/images/products/recommend/cloth/wallet.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="price fw-bold mb-2">$99.30</div>
+                <p class="item-desc">Blue wallet for men leather metarfial</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="item bg-white border px-4 py-3 rounded-2">
+                <div class="item-img text-center mb-4">
+                  <img
+                    src="assets/images/products/recommend/cloth/bag.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="price fw-bold mb-2">$9.99</div>
+                <p class="item-desc">Blue wallet for menleather metarfial</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="item bg-white border px-4 py-3 rounded-2">
+                <div class="item-img text-center mb-4">
+                  <img
+                    src="assets/images/products/recommend/cloth/short.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="price fw-bold mb-2">$10.30</div>
+                <p class="item-desc">blue shorts Jeans medium size</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="item bg-white border px-4 py-3 rounded-2">
+                <div class="item-img text-center mb-4">
+                  <img
+                    src="assets/images/products/recommend/tech/headphone.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="price fw-bold mb-2">$8.99</div>
+                <p class="item-desc">Headset for gaming with mic</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="item bg-white border px-4 py-3 rounded-2">
+                <div class="item-img text-center mb-4">
+                  <img
+                    src="assets/images/products/recommend/cloth/bag.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="price fw-bold mb-2">$99.30</div>
+                <p class="item-desc">Jeans bag for travel for men</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="item bg-white border px-4 py-3 rounded-2">
+                <div class="item-img text-center mb-4">
+                  <img
+                    src="assets/images/products/recommend/interior/gar.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="price fw-bold mb-2">$10.30</div>
+                <p class="item-desc">Jeans bag for travel for men</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="item bg-white border px-4 py-3 rounded-2">
+                <div class="item-img text-center mb-4">
+                  <img
+                    src="assets/images/products/recommend/tech/kattle.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="price fw-bold mb-2">$80.95</div>
+                <p class="item-desc">Jeans bag for travel for men</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ./recommended -->
+
+    <!-- services -->
+    <section class="services mt-5">
+      <div class="container">
+        <h3 class="mb-4">Our extra services</h3>
+        <div class="row row-cols-1 row-cols-md-4 row-cols-sm-2 g-3">
+          <div class="col">
+            <div class="service overflow-hidden rounded-2 border">
+              <div class="service-img">
+                <div class="overlay"></div>
+                <img
+                  src="assets/images/services/img1.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="service-body bg-white p-3">
+                <div class="service-title">
+                  Source from <br />
+                  Industry Hubs
+                </div>
+                <div class="service-icon">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service overflow-hidden rounded-2 border">
+              <div class="service-img">
+                <div class="overlay"></div>
+                <img
+                  src="assets/images/services/img2.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="service-body bg-white p-3">
+                <div class="service-title">
+                  Customize Your<br />
+                  Products
+                </div>
+                <div class="service-icon">
+                  <i class="fa-solid fa-box-archive"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service overflow-hidden rounded-2 border">
+              <div class="service-img">
+                <div class="overlay"></div>
+                <img
+                  src="assets/images/services/img3.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="service-body bg-white p-3">
+                <div class="service-title">
+                  Fast, reliable shipping<br />
+                  by ocean or air
+                </div>
+                <div class="service-icon">
+                  <i class="fa-solid fa-paper-plane"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service overflow-hidden rounded-2 border">
+              <div class="service-img">
+                <div class="overlay"></div>
+                <img
+                  src="assets/images/services/img1.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="service-body bg-white p-3">
+                <div class="service-title">
+                  Product monitoring <br />and inspection
+                </div>
+                <div class="service-icon">
+                  <i class="fa-solid fa-shield-halved"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ./services -->
+
+    <!-- subscribe -->
+    <div class="subscribe bg-light text-center py-5 px-1 mt-5">
+      <h4 class="fw-bold">Subscribe on our newsletter</h4>
+      <p class="text-muted">
+        Get daily news on upcoming offers from many suppliers all over the world
+      </p>
+      <form class="d-flex gap-3">
+        <div class="input-group">
+          <span class="input-group-text bg-white">
+            <i class="fa-regular fa-envelope"></i>
+          </span>
+          <input
+            type="email"
+            class="form-control shadow-none"
+            placeholder="Email"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+    </div>
+    <!-- ./subscribe -->
+
+    <!-- footer -->
+    <footer class="bg-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 mb-lg-0 mb-3">
+            <div class="logo mb-3">
+              <a href="#">
+                <img src="assets/images/logo-colored.png" alt="" />
+              </a>
+            </div>
+            <p class="text-muted">
+              Best information about the company gies here but now lorem ipsum
+              is
+            </p>
+            <div class="social-links">
+              <ul class="list-unstyled d-flex">
+                <li class="me-2">
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li class="me-2">
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li class="me-2">
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li class="me-2">
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg col-sm-3 mb-lg-0 mb-3">
+            <h6 class="fw-bold mb-3">About</h6>
+            <ul class="list-unstyled p-0">
+              <li>
+                <a class="nav-link mb-2 small text-muted" href="#">About Us</a>
+              </li>
+              <li>
+                <a class="nav-link mb-2 small text-muted" href="#"
+                  >Find store</a
+                >
+              </li>
+              <li>
+                <a class="nav-link mb-2 small text-muted" href="#"
+                  >Categories</a
+                >
+              </li>
+              <li>
+                <a class="nav-link mb-2 small text-muted" href="#">Blogs</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg col-sm-3 mb-lg-0 mb-3">
+            <h6 class="fw-bold mb-3">Partnership</h6>
+            <ul class="list-unstyled p-0">
+              <li>
+                <a class="nav-link mb-2 small text-muted" href="#">About Us</a>
+              </li>
+              <li>
+                <a class="nav-link mb-2 small text-muted" href="#"
+                  >Find store</a
+                >
+              </li>
+              <li>
+                <a class="nav-link mb-2 small text-muted" href="#"
+                  >Categories</a
+                >
+              </li>
+              <li>
+                <a class="nav-link mb-2 small text-muted" href="#">Blogs</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg col-sm-3 mb-lg-0 mb-3">
+            <h6 class="fw-bold mb-3">Information</h6>
+            <ul class="list-unstyled p-0">
+              <li>
+                <a class="nav-link mb-2 small text-muted" href="#"
+                  >Help Center</a
+                >
+              </li>
+              <li>
+                <a class="nav-link mb-2 small text-muted" href="#"
+                  >Money Refund</a
+                >
+              </li>
+              <li>
+                <a class="nav-link mb-2 small text-muted" href="#">Shipping</a>
+              </li>
+              <li>
+                <a class="nav-link mb-2 small text-muted" href="#"
+                  >Contact us</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg col-sm-3 mb-lg-0 mb-3">
+            <h6 class="fw-bold mb-3">For users</h6>
+            <ul class="list-unstyled p-0">
+              <li>
+                <a class="nav-link mb-2 small text-muted" href="#">Login</a>
+              </li>
+              <li>
+                <a class="nav-link mb-2 small text-muted" href="#">Register</a>
+              </li>
+              <li>
+                <a class="nav-link mb-2 small text-muted" href="#">Settings</a>
+              </li>
+              <li>
+                <a class="nav-link mb-2 small text-muted" href="#">My Orders</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <h6 class="fw-bold mb-3">Get app</h6>
+            <a href="#" class="d-block mb-2"
+              ><img src="assets/images/btn1.png" alt=""
+            /></a>
+            <a href="#" class="d-block"
+              ><img src="assets/images/btn2.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ./footer -->
+
+    <!-- js files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
